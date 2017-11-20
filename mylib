@@ -1,0 +1,10 @@
+LIB=$(find . -type l)
+
+echo "Delete :\n$LIB"
+rm -r $LIB
+
+ln -s ~/Project42/libft libft
+
+LIB=$(FIND . -type l)
+
+echo "Create : $LIB"
